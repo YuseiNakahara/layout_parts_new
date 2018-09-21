@@ -3,3 +3,42 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+table, td, th{
+	border: 1px solid #dedede;
+	
+}
+
+th { background: #3344aa;
+  	font-size: 18px;
+	line-height: 26px;
+	color: white;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+    
+td:nth-child(1){
+	background: #3344aa;
+	font-size: 18px;
+  line-height: 26px;
+	color: white;
+}
+
+tr:nth-child(2n+1) {
+	background: #ecf1f2;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+tr:nth-last-child(2){
+	border-bottom: dashed 2px #000;
+}
+tr{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+td{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	text-align: center;
+}
