@@ -9,9 +9,10 @@
   display: table-cell;
   padding: 20px;
 }
-.q4{
+.display{
   padding: 20px;
   width: 100%;
+  box-sizing: border-box;
 }
 .header{
   display: table;

@@ -1,65 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <title>基本レイアウト・パーツ</title>
-    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
-    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <h1 class="title">基本レイアウト・パーツ</h1>
-      <h2 class="headline">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <title>基本レイアウト・パーツ</title>
+  <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
+  <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class="title">基本レイアウト・パーツ</h1>
+    <h2 class="headline">
         <p class="headline__text">Q8. ボタンパーツ ＆ フォーム</p>
       </h2>
-      <div class="box">
-        <div class="box__inner">
-          <h3 class="box__headline">
+    <div class="box">
+      <div class="box__inner">
+        <h3 class="box__headline">
             <p class="box__headline__text">ー Q8-1 ボタンパーツ ー</p>
           </h3>
-          <!--
+        <!--
                この問題は特に難しいプロパティは使いませんので、普通にやれば簡単にボタンを作ることができます。
                ただ、意識していただきたいのは、classを適切にふることで共通化できるスタイルは共通化してしまうということです。
                この問題もHTMLはすでに記述してありますので、ボタンのdivにclassを付与してスタイルを当ててください。
                .q8--btnにfont-sizeを0として指定してあるので必ずボタン部分でfont-sizeを指定してください。
           -->
-          <!-- 回答はここに書いてね -->
-          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー small ー</p>
-            <div class="common">common</div>
-            <div class="error">error</div>
-            <div class="disabled">disabled</div>
-            <div class="shadow">shadow</div>
-          </div>
-
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー middle ー</p>
-            <div class="common_middle">common</div>
-            <div class="error_middle">error</div>
-            <div class="disabled_middle">disabled</div>
-            <div class="shadow_middle">shadow</div>
-          </div>
-
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー large ー</p>
-            <div class="common_large">common</div>
-            <div class="error_large">error</div>
-            <div class="disabled_large">disabled</div>
-            <div class="shadow_large">shadow</div>
-          </div>
-          <!-- 回答はここに書いてね -->
+        <!-- 回答はここに書いてね -->
+        <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+        <div class="q8 q8--btn">
+          <p class="q8__title">ー small ー</p>
+          <div class="small-btn common">common</div>
+          <div class="small-btn error">error</div>
+          <div class="small-btn disabled">disabled</div>
+          <div class="small-btn shadow">shadow</div>
         </div>
 
-        <div class="box__inner">
-          <h3 class="box__headline">
+        <div class="q8 q8--btn">
+          <p class="q8__title">ー middle ー</p>
+          <div class="middle-btn common">common</div>
+          <div class="middle-btn error">error</div>
+          <div class="middle-btn disabled">disabled</div>
+          <div class="middle-btn shadow">shadow</div>
+        </div>
+
+        <div class="q8 q8--btn">
+          <p class="q8__title">ー large ー</p>
+          <div class="large-btn common">common</div>
+          <div class="large-btn error">error</div>
+          <div class="large-btn disabled">disabled</div>
+          <div class="large-btn shadow">shadow</div>
+        </div>
+        <!-- 回答はここに書いてね -->
+      </div>
+
+      <div class="box__inner">
+        <h3 class="box__headline">
             <p class="box__headline__text">ー Q8-2 フォーム ー</p>
           </h3>
-          <!--
+        <!--
                Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
                ここで使われるタグは一般的にはデザインするのが難しいと言われていますが、それをやらないといけない状況は結構多いです。（簡単リセットされない、:focusや:activeを使う）
                まずはデフォルトでタグにあてられているスタイルを解除して、フラットな状態にしてからスタイルを当てていくことが大事です。
@@ -93,80 +93,80 @@
                ・:before
                ・:after
           -->
-          <!-- 回答はここに書いてね -->
-          <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
-          <div class="q8">
-            <form class="q8-form">
-              <div class="form-title">
-                <p class="form-title-text">Form Exercise</p>
-              </div>
-              <div class="clearfix">
-                <div class="clearfix-left">
-                  <div class="clearfix-left-items">
-                    <div class="clearfix">
-                      <p class="items-title" for="name">名前<span style="color:red;">*</span></p>
-                      <div class="items-content">
-                        <input class="form-input form-input-init form-back" type="text" required="required" id="name" name="user_name">
-                      </div>
+        <!-- 回答はここに書いてね -->
+        <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
+        <div class="q8">
+          <form class="q8-form">
+            <div class="form-title">
+              <p class="form-title-text">Form Exercise</p>
+            </div>
+            <div class="clearfix">
+              <div class="clearfix-left">
+                <div class="clearfix-left-items">
+                  <div class="clearfix">
+                    <p class="items-title" for="name">名前<span style="color:red;">*</span></p>
+                    <div class="items-content">
+                      <input class="form-input form-input-init form-back" type="text" required="required" id="name" name="user_name">
                     </div>
-                    <div class="clearfix menu">
-                      <label class="items-title" for="sex">性別</label>
-                      <div class="items-content">
-                        <label class="radio">
+                  </div>
+                  <div class="clearfix menu">
+                    <label class="items-title" for="sex">性別</label>
+                    <div class="items-content">
+                      <label class="radio">
                           <input class="radio-button" type="radio" name="user_sex" value="man">
                           <span class="radio-text":before :after>男性</span>
                         </label>
-                        <label class="radio">
+                      <label class="radio">
                           <input class="radio-button" type="radio" name="user_sex" value="woman">
                           <span class="radio-text":before :after>女性</span>
                         </label>
-                      </div>
                     </div>
-                    <div class="clearfix menu">
-                      <label class="items-title">出身</label>
-                      <div class="items-content form-select":after>
-                        <select name="graduate" class="select-body form-input-init">
+                  </div>
+                  <div class="clearfix menu">
+                    <label class="items-title">出身</label>
+                    <div class="items-content form-select" :after>
+                      <select name="graduate" class="select-body form-input-init">
                           <option value="tokyo">東京都</option>
                           <option value="saitama">埼玉</option>
                           <option value="chiba">千葉</option>
                           <option value="kanagawa">神奈川県</option>
                         </select>
-                      </div>
-                    </div>
-                    <div class="clearfix menu">
-                      <label class="items-title" for="e-mail">Eメール<span style="color:red;">*</span></label>
-                      <div class="items-content">
-                        <input class="form-input form-input-init form-back" type="email" required="required" id="e-mail" name="user_mail" placeholder="ex)hoge@gmail.com">
-                      </div>
-                    </div>
-                    <div class="clearfix menu">
-                      <label class="items-title" for="tell">電話番号</label>
-                      <div class="items-content">
-                        <input class="form-input form-input-init form-back" type="text" id="phone-number" name="user_phone_number" placeholder="ex)08012345678">
-                      </div>
-                    </div>
-                    <div class="clearfix menu">
-                      <div class="items-content">
-                        <div class="form-checkbox">
-                          <input class="checkbox-button" type="checkbox" id="form-checkbox" name="user_age" value="adult">
-                          <label for="form-checkbox" class="checkbox-text":before :after>20歳以上です</label>
-                        </div>
-                      </div>
                     </div>
                   </div>
-                  <div class="form-bottom">
-                    <button class="send-button form-input-init" type="submit" name="action" value="send">送信</button>
+                  <div class="clearfix menu">
+                    <label class="items-title" for="e-mail">Eメール<span style="color:red;">*</span></label>
+                    <div class="items-content">
+                      <input class="form-input form-input-init form-back" type="email" required="required" id="e-mail" name="user_mail" placeholder="ex)hoge@gmail.com">
+                    </div>
+                  </div>
+                  <div class="clearfix menu">
+                    <label class="items-title" for="tell">電話番号</label>
+                    <div class="items-content">
+                      <input class="form-input form-input-init form-back" type="text" id="phone-number" name="user_phone_number" placeholder="ex)08012345678">
+                    </div>
+                  </div>
+                  <div class="clearfix menu">
+                    <div class="items-content">
+                      <div class="form-checkbox">
+                        <input class="checkbox-button" type="checkbox" id="form-checkbox" name="user_age" value="adult">
+                        <label for="form-checkbox" class="checkbox-text" :before :after>20歳以上です</label>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="form-right">
-                  <textarea class="otherwise-text form-input-init form-back" name="otherwise" placeholder="何かあれば入力してください。"></textarea>
+                <div class="form-bottom">
+                  <button class="send-button form-input-init" type="submit" name="action" value="send">送信</button>
                 </div>
               </div>
-            </form>
-          </div>
-          <!-- 回答はここに書いてね -->
+              <div class="form-right">
+                <textarea class="otherwise-text form-input-init form-back" name="otherwise" placeholder="何かあれば入力してください。"></textarea>
+              </div>
+            </div>
+          </form>
         </div>
+        <!-- 回答はここに書いてね -->
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>

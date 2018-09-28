@@ -3,8 +3,10 @@
 /* 回答はここに書いてね */
 .common{
 	background-color: #00bcd4;
-	font-size: 16px;
 	color: white;
+}
+.small-btn{
+	font-size: 16px;
 	padding: 0 15px;
 	line-height: 26px;
 	border-radius: 3px;
@@ -43,89 +45,21 @@
 	margin-left: 10px;
 }
 
-.common_middle{
-	background-color: #00bcd4;
+.middle-btn{
 	font-size: 20px;
-	color: white;
 	padding: 0 20px;
 	line-height: 32px;
 	border-radius: 5px;
 	display: inline-block;
 }
-.error_middle{
-	background-color: #ff4081;
-	font-size: 20px;
-	color: white;
-	padding: 0 20px;
-	line-height: 32px;
-	border-radius: 5px;
+.large-btn{
+	font-size: 24px;
+	padding: 0 25px;
+	line-height: 38px;
+	border-radius: 7px;
 	display: inline-block;
-	margin-left: 10px;
-}
-.disabled_middle{
-	background-color: #e5e5e5;
-	font-size: 20px;
-	color: white;
-	padding: 0 20px;
-	line-height: 32px;
-	border-radius: 5px;
-	display: inline-block;
-	margin-left: 10px;
-}
-.shadow_middle{
-	background-color: white;
-	font-size: 20px;
-	color: #222;
-	padding: 0 20px;
-	line-height: 32px;
-	border-radius: 5px;
-	display: inline-block;
-	box-shadow: 0 1px rgba(0,0,0,.12), 0 1px rgba(0,0,0,.12);
-	border:0.5px solid rgb(0,0,0,.12);
-	margin-left: 10px;
 }
 
-.common_large{
-	background-color: #00bcd4;
-	font-size: 24px;
-	color: white;
-	padding: 0 25px;
-	line-height: 38px;
-	border-radius: 7px;
-	display: inline-block;
-}
-.error_large{
-	background-color: #ff4081;
-	font-size: 24px;
-	color: white;
-	padding: 0 25px;
-	line-height: 38px;
-	border-radius: 7px;
-	display: inline-block;
-	margin-left: 10px;
-}
-.disabled_large{
-	background-color: #e5e5e5;
-	font-size: 24px;
-	color: white;
-	padding: 0 25px;
-	line-height: 38px;
-	border-radius: 7px;
-	display: inline-block;
-	margin-left: 10px;
-}
-.shadow_large{
-	background-color: white;
-	font-size: 24px;
-	color: #222;
-	padding: 0 25px;
-	line-height: 38px;
-	border-radius: 7px;
-	display: inline-block;
-	box-shadow: 0 1px rgba(0,0,0,.12), 0 1px rgba(0,0,0,.12);
-	border:0.5px solid rgb(0,0,0,.12);
-	margin-left: 10px;    
-}
 /* 回答はここに書いてね */
 
 
@@ -326,7 +260,9 @@ option {
 .send-button:active{
 	background-color: #FFF;
 	color: #00BCD4;
+	outline:none;
 }
+
 .form-right {
 	float: right;
 	width: 380px;
@@ -341,4 +277,12 @@ option {
 	box-sizing: border-box;
 	resize: none;
 	border: none;
+}
+.otherwise-text:focus {
+	box-shadow: 0 0 7px #00BCD4;
+	outline:none;
+}
+.form-input:focus {
+	box-shadow: 0 0 7px #00BCD4;
+	outline:none;
 }

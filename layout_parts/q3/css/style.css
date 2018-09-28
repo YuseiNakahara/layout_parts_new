@@ -9,34 +9,34 @@
 	table-layout: fixed;
 }
 
-th { 
+.menu th {
 	background: #3344aa;
 	font-size: 18px;
 	line-height: 26px;
 	color: white;
-	padding-top: 10px; 
+	padding-top: 10px;
 	padding-bottom: 10px;
 	border: 1px solid #dedede;
 }
 
-tr:nth-child(2n+1) {
+.menu tr:nth-child(2n+1) {
 	background: #ecf1f2;
 	font-size: 16px;
 	line-height: 22px;
 }
 
-tr:last-child {
+.menu tr:last-child {
 	border-top: 2px dashed #000;
 }
 
-tr{
-	padding-top: 10px; 
+.menu tr{
+	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
 
-td{
-	padding-top: 10px; 
+.menu td{
+	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
 	border: 1px solid #dedede;
