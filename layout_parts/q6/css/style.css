@@ -2,49 +2,71 @@
 
 /* 回答はここに書いてね */
 /* 回答はここに書いてね */
-.item{
-    background-color: #e6f2ff;
-    width: 90px;
-    margin: 0 auto;
-    padding: 10px 0;
-    text-align: center;
+.q6-textalign{
+  display: inline-block;
+  width: 300px;
+  margin: 0 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+  background-color: #fff;
+}
+.q6-text{
+  text-align: center;
+  display: inline-block;
+}
+.item {
+  background-color: #e6f2ff;
+  display: inline-block;
+  width: 90px;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.q6-margin{
+  display: inline-block;
+  width: 300px;
+  margin: 0 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  background-color: #fff;
 }
 
 .table{
-    display: table;
-    text-align: center;
+  display: table;
+  text-align: center;
 }
 .menu{
-    vertical-align: middle;
-    display: table-cell;
+  vertical-align: middle;
+  display: table-cell;
 }
 .logo{
-    background-color: #fff;
-    padding: 10px 10px;
-    display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
 }
 
 .flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cell{
-    background-color: #fff;
-    padding: 10px 10px;
-    text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 .position{
-    position: relative;
+  position: relative;
 }
 .margin{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 .relative{
     position: relative;

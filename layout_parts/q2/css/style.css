@@ -3,32 +3,22 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
-.menu{
-    background-color: #eff3f4;
-    width: 940px;
-    margin: 0 auto;
+.q2{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #ECF1F2;
+	padding: 20px;
 }
-
-.item{
-    background-color: #eff3f4;
-    width: 940px;
+.left{
+	float: left;
+	margin-right: 20px;
 }
-
-p{
-    font-size: 18px;
-    line-height: 22px;
-    padding: 20px;
-    text-align: justify;
+.text{
+	font-size: 18px;
+	line-height: 22px;
+	text-align: justify;
 }
-
-img{
-   float: left;
-   margin-right: 20px;
-   margin-bottom: 10px;
-}
-
-.img-right{
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 10px;
+.right{
+	float: right;
+	margin-left: 20px;
 }

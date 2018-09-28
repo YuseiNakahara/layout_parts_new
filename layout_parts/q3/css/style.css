@@ -3,24 +3,20 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
-table, td, th{
+.menu{
+	width: 100%;
 	border: 1px solid #dedede;
-	
+	table-layout: fixed;
 }
 
-th { background: #3344aa;
-  	font-size: 18px;
+th { 
+	background: #3344aa;
+	font-size: 18px;
 	line-height: 26px;
 	color: white;
 	padding-top: 10px; 
 	padding-bottom: 10px;
-}
-    
-td:nth-child(1){
-	background: #3344aa;
-	font-size: 18px;
-  line-height: 26px;
-	color: white;
+	border: 1px solid #dedede;
 }
 
 tr:nth-child(2n+1) {
@@ -29,16 +25,19 @@ tr:nth-child(2n+1) {
 	line-height: 22px;
 }
 
-tr:nth-last-child(2){
-	border-bottom: dashed 2px #000;
+tr:last-child {
+	border-top: 2px dashed #000;
 }
+
 tr{
 	padding-top: 10px; 
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
+
 td{
 	padding-top: 10px; 
 	padding-bottom: 10px;
 	text-align: center;
+	border: 1px solid #dedede;
 }

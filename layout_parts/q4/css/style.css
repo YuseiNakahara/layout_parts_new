@@ -1,55 +1,42 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4.header{
-    background-color: #eff3f4;
-    display: table;
-    width: 100%;
-    padding: 20px 20px;
+.header:first-child{
+  margin-top: 0;
+}
+.text{
+  text-align: center;
+  display: table-cell;
+  padding: 20px;
+}
+.q4{
+  padding: 20px;
+  width: 100%;
+}
+.header{
+  display: table;
+  width: 100%;
+  margin-top: 20px;
 }
 .block{
-    background-color: #fdc8b8;
-    width: 100px;
-    text-align: center;
-    display: table-cell;
-    padding: 20px;
+  background-color: #fdc8b8;
+  width: 100px;
 }
 .cube{
-    background-color: #e0abd9;
-    display: table-cell;
-    text-align: center;
-    padding: 20px;
+  background-color: #e0abd9;
 }
 .set{
-    background-color: #b6d8ed;
-    width: 100px;
-    text-align: center;
-    display: table-cell;
-    padding: 20px;
+  background-color: #b6d8ed;
+  width: 100px;
 }
 /* 回答はここに書いてね */
-.q4.footer{
-    background-color: #eff3f4;
-    display: table;
-    width: 100%;
-    padding: 20px 20px;
-}
 .item{
-    background-color: #e5d32e;
-    display: table-cell;
-    text-align: center;
-    padding: 20px;
+  background-color: #e5d32e;
 }
 .menu{
-    background-color: #ec8f9a;
-    display: table-cell;
-    text-align: center;
-    padding: 20px;
+  background-color: #ec8f9a;
 }
 .logo{
-    background-color: #8fdcad;
-    width: 500px;
-    text-align: center;
-    display: table-cell;
-    padding: 20px;
+  background-color: #8fdcad;
+  width: 500px;
 }
