@@ -2,32 +2,34 @@
 
 /* 回答はここに書いてね */
 .clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 .clearfix{
-    width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #eff3f4;
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eff3f4;
 }
 
 .box-logo{
-    float: left;
-    margin-left: 20px;
-    padding: 20px;
-    width: 230px;
-    background-color: #3274ae;
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+  width: 230px;
+  background-color: #3274ae;
 }
-
+.box-logo:first-child{
+  margin-left: 0;
+}
 .box-logo-item{
-    border: 10px solid #022336;
-    background-color: #eaf4ff;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
 }
 
 .text{
-    padding: 20px;
-    font-size: 16px;
-    line-height: 16px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
 }
